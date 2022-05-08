@@ -55,7 +55,7 @@ model.compile(optimizer='adam',
 
 history = model.fit(
     train_dataset,
-    epochs=12,
+    epochs=5,
     validation_data=validation_dataset,
     verbose = 1
 )
